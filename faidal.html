@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Hazard to Resource</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(to bottom, #74ebd5, #9face6);
+            background-attachment: fixed;
+            color: #333;
+            transition: background-color 0.5s ease;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            transition: background-color 0.5s ease;
+        }
+        header img {
+            height: 50px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+        .hero {
+            text-align: center;
+            color: white;
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 20px;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero:hover {
+            transform: scale(1.05);
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px;
+        }
+        .card {
+            background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            overflow: hidden;
+            width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+        .card img {
+            width: 100%;
+            border-bottom: 5px solid #fff;
+        }
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+        .card-content h2 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+        .image-gallery {
+            margin: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            text-align: center;
+        }
+        .image-gallery h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            transition: background-color 0.5s ease;
+        }
+        .footer:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>From Hazard to Resource</h1>
+    <p>Transforming flammable waste into valuable materials.</p>
+</section>
+
+<section id="about" class="content">
+    <div class="card">
+        <img src="dryer_lint.png" alt="Dryer Lint">
+        <div class="card-content">
+            <h2>What is Dryer Lint?</h2>
+            <p>Dryer lint is composed mainly of tiny fibers shed from clothes during the drying process. It can be both natural and synthetic, posing a fire hazard.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="content">
+    <div class="card">
+        <img src="concrete_mix.png" alt="Concrete Mix">
+        <div class="card-content">
+            <h2>Innovative Use</h2>
+            <p>Incorporating dryer lint into cement enhances crack resistance, tensile strength, and impact resistance, making concrete more resilient.</p>
+        </div>
+    </div>
+</section>
+
+<section class="image-gallery">
+    <h2>Dryer Lint's Components</h2>
+    <div class="gallery">
+        <img src="cotton.png" alt="Material 1">
+        <img src="hair.png" alt="Material 2">
+        <img src="dust.png" alt="Material 3">
+        <img src="nylon.png" alt="Material 4">
+    </div>
+</section>
+
+<section id="contact" class="hero">
+    <h2>Contact Us</h2>
+    <p>Email: zubeefaidal0107@gmail.com | Phone: 09679400080</p>
+</section>
+
+<footer class="footer">
+    <p>Thank you for visiting! Follow us for updates on our advocacy.</p>
+</footer>
+
+</body>
+</html>
